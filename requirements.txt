@@ -1,0 +1,4 @@
+#logs and env
+loguru==0.5.3
+python-dotenv==0.17.0
+seaborn==0.11.2
