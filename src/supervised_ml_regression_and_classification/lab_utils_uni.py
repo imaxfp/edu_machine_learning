@@ -8,8 +8,8 @@ from matplotlib.ticker import MaxNLocator
 from matplotlib.gridspec import GridSpec
 from matplotlib.colors import LinearSegmentedColormap
 from ipywidgets import interact
-from lab_utils_common import compute_cost
-from lab_utils_common import dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dlcolors
+from lab_utils_common_old import compute_cost
+from lab_utils_common_old import dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dlcolors
 
 plt.style.use('./deeplearning.mplstyle')
 n_bin = 5
