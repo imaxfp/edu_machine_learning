@@ -544,7 +544,7 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
     return w, b, hist #return w,b and history for graphing
 
 def load_house_data():
-    data = np.loadtxt("../data/houses.txt", delimiter=',', skiprows=1)
+    data = np.loadtxt("./data/houses.txt", delimiter=',', skiprows=1)
     X = data[:,:4]
     y = data[:,4]
     return X, y
