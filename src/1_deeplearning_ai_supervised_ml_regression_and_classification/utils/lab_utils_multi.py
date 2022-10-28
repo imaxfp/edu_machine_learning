@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
 from matplotlib.ticker import MaxNLocator
 dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0'; 
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('deeplearning.mplstyle')
 
 def load_data_multi():
-    data = np.loadtxt("data/ex1data2.txt", delimiter=',')
+    data = np.loadtxt("../data/ex1data2.txt", delimiter=',')
     X = data[:,:2]
     y = data[:,2]
     return X, y
@@ -544,7 +544,7 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
     return w, b, hist #return w,b and history for graphing
 
 def load_house_data():
-    data = np.loadtxt("./data/houses.txt", delimiter=',', skiprows=1)
+    data = np.loadtxt("../data/houses.txt", delimiter=',', skiprows=1)
     X = data[:,:4]
     y = data[:,4]
     return X, y

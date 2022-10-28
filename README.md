@@ -4,12 +4,14 @@ pip install seaborn
 
 git config --global user.name
 
-#
-https://www..org/specializations/machine-learning-introduction
-https://www..org/learn/advanced-learning-algorithms
-https://www.coursera.org/learn/neural-networks-deep-learning
-https://www.coursera.org/learn/convolutional-neural-networks
-https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning
+Courses list:
+1. Supervised Machine Learning: Regression and Classification - https://www.coursera.org/learn/machine-learning
+2. Supervised Machine Learning: Classification - https://www.coursera.org/learn/supervised-machine-learning-classification
+
+
+#TODO
+Specialization:
+https://www.coursera.org/specializations/machine-learning-introduction
 
 
 https://www.deeplearning.ai/courses/
