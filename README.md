@@ -1,6 +1,7 @@
 # edu_machine_learning
 
 pip install seaborn
+pip install ipympl
 
 git config --global user.name
 
