@@ -80,9 +80,7 @@ class NeuralNetwork:
         return 1 / (1 + np.exp(-x))
 
     @staticmethod
-    def link_weight_ih_and_ho_gaussian_distribution(
-        hidden_nodes: int, input_nodes: int
-    ):
+    def link_weight_ih_and_ho_gaussian_distribution(hidden_nodes: int, input_nodes: int):
         """_summary_
                 They sample the weights from a normal probability distribution centered around zero
         and with a standard deviation that is related to the number of incoming links into a node
@@ -168,8 +166,6 @@ class NeuralNetwork:
             numpy.transpose(inputs),
         )
 
-        pass
-
     def query(self, inputs_list):
         """
         The query() function takes the input to a neural network and returns the network’s output.
@@ -191,6 +187,11 @@ class NeuralNetwork:
         final_outputs = self.activation_fun_sig(final_inputs)
 
         return final_outputs
+    
+    def print_nn(self):
+        
+        pass
+        
 
 
 # TESTS
